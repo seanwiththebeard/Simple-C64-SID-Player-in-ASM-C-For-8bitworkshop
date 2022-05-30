@@ -1,10 +1,10 @@
 .export _SIDINIT
 .export _SIDFILE
 .export _SIDPLAY
-_SIDFILE: .INCBIN "filename.sid",$7e ;Fuer_Elise.sid
+_SIDFILE: .INCBIN "filename.sid",$7e ;Pachelbel.sid, note not every SID will work, check after running sidreloc.exe to see where the load and play positions went
 
-SIDLOADPOS = $40AD;
-SIDPLAYPOS = $4113;
+SIDLOADPOS = $4000;
+SIDPLAYPOS = $4003;
 
 SIDSTEP: 		;step SID
 	jsr SIDPLAYPOS  ;jump to SIDPLAYPOS, return
