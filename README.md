@@ -1,3 +1,6 @@
+[Open this project in 8bitworkshop](http://8bitworkshop.com/redir.html?platform=c64&githubURL=https%3A%2F%2Fgithub.com%2Fseanwiththebeard%2FSimple-C64-SID-Player-in-ASM-C-For-8bitworkshop&file=main.c).
+=====
+
 # Simple C64 SID Player in ASM/C for CC65
 
 (c) 2018 SolidCore
