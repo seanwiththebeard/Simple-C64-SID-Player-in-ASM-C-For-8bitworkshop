@@ -1,10 +1,10 @@
 .export _SIDINIT
 .export _SIDFILE
 .export _SIDPLAY
-_SIDFILE: .INCBIN "filename.sid",$7e
+_SIDFILE: .INCBIN "filename.sid",$7e ;Fuer_Elise.sid
 
-SIDLOADPOS = $4000;
-SIDPLAYPOS = $4003;
+SIDLOADPOS = $40AD;
+SIDPLAYPOS = $4113;
 
 SIDSTEP: 		;step SID
 	jsr SIDPLAYPOS  ;jump to SIDPLAYPOS, return
